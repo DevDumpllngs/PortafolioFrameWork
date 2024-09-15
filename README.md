@@ -38,7 +38,7 @@ Para ejecutar el proyecto localmente:
 
 1. Clona este repositorio:
     ```bash
-    git clone (https://github.com/DevDumpllngs/PortafolioFrameWork)
+    git clone (https://github.com/DevDumpllngs/PortafolioFrameWork.git)
     ```
 2. Abre el archivo `index.html` en tu navegador.
 
