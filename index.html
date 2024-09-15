@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Dumpllngs</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-1 d-none d-md-block">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">
+                            <div class="icon-container">
+                                <span class="material-icons">home</span>
+                                <span class="icon-text">Inicio</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <div class="icon-container">
+                                <span class="material-icons">person</span>
+                                <span class="icon-text">Acerca de mí</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <div class="icon-container">
+                                <span class="material-icons">build</span>
+                                <span class="icon-text">Skills</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hobbies" class="nav-link">
+                            <div class="icon-container">
+                                <span class="material-icons">sports_esports</span>
+                                <span class="icon-text">Pasatiempos</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">
+                            <div class="icon-container">
+                                <span class="material-icons">school</span>
+                                <span class="icon-text">Formación</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">
+                            <div class="icon-container">
+                                <span class="material-icons">work</span>
+                                <span class="icon-text">Experiencia</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <div class="icon-container">
+                                <span class="material-icons">mail</span>
+                                <span class="icon-text">Contacto</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="col-md-11 ms-sm-auto px-4">
+                <div id="content">
+                    <!-- Menu Principal Seccion -->
+                    <section id="home" class="active">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div id="text-container">
+                                    <h1>¡Hola!</h1>
+                                    <h2>Soy Dumplings</h2>
+                                    <div id="typing-effect">
+                                        <span class="typed-text"></span>
+                                        <span class="cursor">&nbsp;</span>
+                                    </div>
+            
+                                    <!-- Contenedor de los iconos de redes sociales -->
+                                    <div id="social-icons" style="margin-top: 20px;">
+                                        <a href="https://github.com/DevDumpllngs" target="_blank" class="social-icon">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/devdumpllngs" target="_blank" class="social-icon">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                        <a href="https://www.instagram.com/mak0_bless/" target="_blank" class="social-icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="https://twitter.com/tu_usuario" target="_blank" class="social-icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 position-relative">
+                                <img src="assets/yo.png" alt="Yo" class="img-fluid profile-img animated-levitate">
+                                <img src="assets/splash.png" alt="Splash" class="img-fluid splash-img">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sección Acerca de mi -->
+                    <section id="about" class="terminal-section">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="section-title">Sobre mí</h2>
+                            </div>
+                            <div class="col-md-6 terminal">
+                                <div class="terminal-window">
+                                    <div class="terminal-header">
+                                        <div class="button red"></div>
+                                        <div class="button yellow"></div>
+                                        <div class="button green"></div>
+                                    </div>
+                                    <div class="terminal-body">
+                                        <p class="typed-text-terminal"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/about-image.png" alt="Imagen sobre mí" class="img-fluid">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sección Skills -->
+                    <section id="skills">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="section-title">Habilidades</h2>
+                            </div>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <div class="skill-card-inner">
+                                    <div class="skill-card-front">
+                                        <i class="fab fa-html5 fa-3x"></i> 
+                                        <h3>HTML</h3>
+                                    </div>
+                                    <div class="skill-card-back">
+                                        <p>80%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-card-inner">
+                                    <div class="skill-card-front">
+                                        <i class="fab fa-css3-alt fa-3x"></i> 
+                                        <h3>CSS</h3>
+                                    </div>
+                                    <div class="skill-card-back">
+                                        <p>75%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-card-inner">
+                                    <div class="skill-card-front">
+                                        <i class="fab fa-js fa-3x"></i>
+                                        <h3>JavaScript</h3>
+                                    </div>
+                                    <div class="skill-card-back">
+                                        <p>60%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-card studying">
+                                <div class="skill-card-inner">
+                                    <div class="skill-card-front">
+                                        <i class="fab fa-react fa-3x"></i> 
+                                        <h3>React</h3>
+                                        <span class="studying-label">Estudiando</span>
+                                    </div>
+                                    <div class="skill-card-back">
+                                        <p>25%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-card studying">
+                                <div class="skill-card-inner">
+                                    <div class="skill-card-front">
+                                        <h3>Tailwind CSS</h3>
+                                        <span class="studying-label">Estudiando</span>
+                                    </div>
+                                    <div class="skill-card-back">
+                                        <p>25%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-card">
+                                <div class="skill-card-inner">
+                                    <div class="skill-card-front">
+                                        <i class="fab fa-figma fa-3x"></i>
+                                        <h3>Figma</h3>
+                                    </div>
+                                    <div class="skill-card-back">
+                                        <p>85%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sección Pasatiempos -->
+                    <section id="hobbies">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="section-title hobbies-title">Pasatiempos</h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center hobbies-section">
+                            <!-- Texto explicativo a la izquierda -->
+                            <div class="col-md-5 hobbies-text">
+                                <p>
+                                    Realmente soy muy apasionado con todo tipo de cosas. Cuando encuentro algo que me gusta, 
+                                    no lo dejo hasta entenderlo y dominarlo. Disfruto de las pequeñas cosas, ya sea jugar videojuegos, 
+                                    escuchar música o simplemente relajarme con una buena película.
+                                </p>
+                            </div>
+
+                            <!-- Carrusel de cartas a la derecha -->
+                            <div class="col-md-5 hobbies-carousel">
+                                <div class="wrapper">
+                                    <div class="outer">
+                                        <!-- Carta de Videojuegos -->
+                                        <div class="card" style="--delay:-1;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">sports_esports</i></div>
+                                                <div class="details">
+                                                    <span class="name">Videojuegos</span>
+                                                    <p>Me encanta jugar videojuegos competitivos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Me gusta explorar nuevos juegos y mejorar mis habilidades en juegos multijugador.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Carta de Música -->
+                                        <div class="card" style="--delay:0;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">music_note</i></div>
+                                                <div class="details">
+                                                    <span class="name">Música</span>
+                                                    <p>Escuchar música es mi forma de relajarme.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Disfruto de una variedad de géneros musicales, desde el jazz hasta el rock.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Carta de Escuchar a las personas -->
+                                        <div class="card" style="--delay:1;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">hearing</i></div>
+                                                <div class="details">
+                                                    <span class="name">Escuchar a las personas</span>
+                                                    <p>Me gusta escuchar y aprender de las experiencias de los demás.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Escuchar historias me ayuda a ver el mundo desde diferentes perspectivas.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Carta de Comida Japonesa -->
+                                        <div class="card" style="--delay:2;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">restaurant</i></div>
+                                                <div class="details">
+                                                    <span class="name">Comida Japonesa</span>
+                                                    <p>El sushi y el ramen son mis favoritos.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Siempre estoy buscando nuevos restaurantes japoneses para probar.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Carta de Dormir -->
+                                        <div class="card" style="--delay:3;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">bed</i></div>
+                                                <div class="details">
+                                                    <span class="name">Dormir</span>
+                                                    <p>Una buena siesta siempre es bienvenida.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Disfruto de las siestas para recargar energías y mantenerme activo.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Carta de Películas de Acción -->
+                                        <div class="card" style="--delay:4;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">movie</i></div>
+                                                <div class="details">
+                                                    <span class="name">Películas de Acción</span>
+                                                    <p>Adoro las películas llenas de adrenalina y acción.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Las escenas de acción y los efectos especiales siempre captan mi atención.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Carta de Anime -->
+                                        <div class="card" style="--delay:5;">
+                                            <div class="content hobby-card-inner">
+                                                <div class="img"><i class="material-icons">animation</i></div>
+                                                <div class="details">
+                                                    <span class="name">Anime</span>
+                                                    <p>Las historias y el arte del anime me inspiran mucho.</p>
+                                                </div>
+                                            </div>
+                                            <div class="hobby-card-back">
+                                                <p>Disfruto de series de anime con historias profundas y personajes complejos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Sección Formación con carrusel horizontal -->
+                    <section id="education">
+                        <h2 class="section-title">Formación</h2>
+                        <div class="row education-carousel">
+                            <div class="carousel-wrapper">
+                                <div class="carousel">
+                                    <!-- Carta 1 -->
+                                    <div class="education-card">
+                                        <img src="assets/one.png" alt="Institución 1" class="education-img">
+                                        <div class="education-details">
+                                            <p class="institution">ONE - Programa de Educacion y Empleabilidad</p>
+                                            <p class="year">2024 - Estudiando actualmente</p>
+                                        </div>
+                                    </div>
+                                    <!-- Carta 2 -->
+                                    <div class="education-card">
+                                        <img src="assets/imagen2.png" alt="Institución 2" class="education-img">
+                                        <div class="education-details">
+                                            <p class="institution">IESTP</p>
+                                            <p class="year">2024 - Estudiando actualmente</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="experience">
+                        <h2 class="section-title">Experiencia</h2>
+                        <div class="experience-container">
+                            <!-- Proyecto 1: Imagen derecha, texto izquierda -->
+                            <div class="experience-item">
+                                <div class="description">
+                                    <h3>Encriptador/Desencriptador de texto.</h3>
+                                    <p>Este proyecto es parte de un desafío de un curso de Oracle. La aplicación web permite encriptar y desencriptar mensajes de texto utilizando un conjunto específico de reglas de sustitución de caracteres.</p>
+                                    <h6>HTML/CSS/JS</h6>
+                                    <div class="buttons">
+                                        <a href="https://github.com/DevDumpllngs/Challenge1" class="btn btn-repo">Repositorio</a>
+                                        <a href="https://devdumpllngs.github.io/Challenge1/" class="btn btn-demo">Ver Demo</a>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="assets/proyecto1.png" alt="Proyecto 1">
+                                </div>
+                            </div>
+                    
+                            <!-- Proyecto 2: Imagen izquierda, texto derecha -->
+                            <div class="experience-item">
+                                <div class="image">
+                                    <img src="assets/proyecto2.png" alt="Proyecto 2">
+                                </div>
+                                <div class="description">
+                                    <h3>E-Commerce de Audifonos</h3>
+                                    <p>Este proyecto simula una tienda web de venta de perifericos, donde se puede visualizar  los productos, agregarlos al carrito y realizar la compra (Lo hice en figma y lo exporte con uso de una IA).</p>
+                                    <h6>HTML/CSS/JS - Locofy.ai</h6>
+                                    <div class="buttons">
+                                        <a href="https://github.com/DevDumpllngs/E-Commerce-Headphones" class="btn btn-repo">Repositorio</a>
+                                        <a href="https://devdumpllngs.github.io/E-Commerce-Headphones/" class="btn btn-demo">Ver Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <!-- Proyecto 3: Imagen derecha, texto izquierda -->
+                            <div class="experience-item">
+                                <div class="description">
+                                    <h3>App Productivity</h3>
+                                    <p>La aplicación de productividad es una herramienta innovadora diseñada para ayudar a los usuarios a gestionar sus tareas y mantenerse organizados de manera efectiva.</p>
+                                    <h6>HTML/CSS/JS</h6>
+                                    <div class="buttons">
+                                        <a href="https://github.com/DevDumpllngs/AppProductivity" class="btn btn-repo">Repositorio</a>
+                                        <a href="https://devdumpllngs.github.io/AppProductivity/" class="btn btn-demo">Ver Demo</a>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="assets/proyecto3.png" alt="Proyecto 3">
+                                </div>
+                            </div>
+                    
+                            <!-- Proyecto 4: Imagen izquierda, texto derecha -->
+                            <div class="experience-item">
+                                <div class="image">
+                                    <img src="assets/proyecto4.png" alt="Proyecto 4">
+                                </div>
+                                <div class="description">
+                                    <h3>Portafolio Interactivo</h3>
+                                    <p>Es mi portafolio personal interactivo diseñado para mostrar habilidades, experiencia y proyectos.</p>
+                                    <h6>HTML/CSS/JS - Bootstrap/Vanilla Javascript</h6>
+                                    <div class="buttons">
+                                        <a href="https://github.com/proyecto4" class="btn btn-repo">Repositorio</a>
+                                        <a href="https://proyecto4-demo.com" class="btn btn-demo">Ver Demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>                    
+
+                    <!-- Sección Contacto -->
+                    <section id="contact">
+                        <div class="row contact-section">
+                            <!-- Imagen a la derecha -->
+                            <div class="col-md-6 contact-image">
+                                <img src="assets/contacto.png" alt="Contacto" class="img-fluid">
+                            </div>
+                            
+                            <!-- Formulario a la izquierda -->
+                            <div class="col-md-6 contact-form">
+                                <h2 class="section-title">Contacto</h2>
+                                <h3>¿Tienes alguna Pregunta? ¡Contactame!</h3>
+                                <p>Completa el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+
+                                <!-- Formulario de contacto -->
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Nombre</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="tuemail@ejemplo.com">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="subject" class="form-label">Asunto</label>
+                                        <input type="text" class="form-control" id="subject" placeholder="Asunto">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Mensaje</label>
+                                        <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí" style="resize: none;"></textarea>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Dumpllngs Portfolio. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
