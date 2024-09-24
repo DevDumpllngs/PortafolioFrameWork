@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="dark-mode-toggle-container">
+        <span id="fixed-dark-mode-icon" class="material-icons">brightness_4</span>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <nav id="sidebar" class="col-md-1 d-none d-md-block">
@@ -68,6 +71,14 @@
                             <div class="icon-container">
                                 <span class="material-icons">mail</span>
                                 <span class="icon-text">Contacto</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" id="dark-mode-toggle" class="nav-link">
+                            <div class="icon-container">
+                                <span id="sidebar-dark-mode-icon" class="material-icons">brightness_4</span>
+                                <span class="icon-text">Modo Nocturno</span>
                             </div>
                         </a>
                     </li>
@@ -223,7 +234,7 @@
                         <div class="row justify-content-center hobbies-section">
                             <!-- Texto explicativo a la izquierda -->
                             <div class="col-md-5 hobbies-text">
-                                <p>
+                                <p id="text-hobby">
                                     Realmente soy muy apasionado con todo tipo de cosas. Cuando encuentro algo que me gusta, 
                                     no lo dejo hasta entenderlo y dominarlo. Disfruto de las pequeñas cosas, ya sea jugar videojuegos, 
                                     escuchar música o simplemente relajarme con una buena película.
@@ -365,7 +376,7 @@
                             <div class="experience-item">
                                 <div class="description">
                                     <h3>Encriptador/Desencriptador de texto.</h3>
-                                    <p>Este proyecto es parte de un desafío de un curso de Oracle. La aplicación web permite encriptar y desencriptar mensajes de texto utilizando un conjunto específico de reglas de sustitución de caracteres.</p>
+                                    <p class="text-project">Este proyecto es parte de un desafío de un curso de Oracle. La aplicación web permite encriptar y desencriptar mensajes de texto utilizando un conjunto específico de reglas de sustitución de caracteres.</p>
                                     <h6>HTML/CSS/JS</h6>
                                     <div class="buttons">
                                         <a href="https://github.com/DevDumpllngs/Challenge1" class="btn btn-repo">Repositorio</a>
@@ -384,7 +395,7 @@
                                 </div>
                                 <div class="description">
                                     <h3>E-Commerce de Audifonos</h3>
-                                    <p>Este proyecto simula una tienda web de venta de perifericos, donde se puede visualizar  los productos, agregarlos al carrito y realizar la compra (Lo hice en figma y lo exporte con uso de una IA).</p>
+                                    <p class="text-project">Este proyecto simula una tienda web de venta de perifericos, donde se puede visualizar  los productos, agregarlos al carrito y realizar la compra (Lo hice en figma y lo exporte con uso de una IA).</p>
                                     <h6>HTML/CSS/JS - Locofy.ai</h6>
                                     <div class="buttons">
                                         <a href="https://github.com/DevDumpllngs/E-Commerce-Headphones" class="btn btn-repo">Repositorio</a>
@@ -397,7 +408,7 @@
                             <div class="experience-item">
                                 <div class="description">
                                     <h3>App Productivity</h3>
-                                    <p>La aplicación de productividad es una herramienta innovadora diseñada para ayudar a los usuarios a gestionar sus tareas y mantenerse organizados de manera efectiva.</p>
+                                    <p class="text-project">La aplicación de productividad es una herramienta innovadora diseñada para ayudar a los usuarios a gestionar sus tareas y mantenerse organizados de manera efectiva.</p>
                                     <h6>HTML/CSS/JS</h6>
                                     <div class="buttons">
                                         <a href="https://github.com/DevDumpllngs/AppProductivity" class="btn btn-repo">Repositorio</a>
@@ -416,11 +427,11 @@
                                 </div>
                                 <div class="description">
                                     <h3>Portafolio Interactivo</h3>
-                                    <p>Es mi portafolio personal interactivo diseñado para mostrar habilidades, experiencia y proyectos.</p>
+                                    <p class="text-project">Es mi portafolio personal interactivo diseñado para mostrar habilidades, experiencia y proyectos.</p>
                                     <h6>HTML/CSS/JS - Bootstrap/Vanilla Javascript</h6>
                                     <div class="buttons">
-                                        <a href="https://github.com/proyecto4" class="btn btn-repo">Repositorio</a>
-                                        <a href="https://proyecto4-demo.com" class="btn btn-demo">Ver Demo</a>
+                                        <a href="https://github.com/DevDumpllngs/PortafolioFrameWork" class="btn btn-repo">Repositorio</a>
+                                        <a href="https://devdumpllngs.github.io/PortafolioFrameWork/" class="btn btn-demo">Ver Demo</a>
                                     </div>
                                 </div>
                             </div>
